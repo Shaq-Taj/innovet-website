@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>InnoVet V</title>
+  <defs><clipPath id="r"><polygon points="57.6,5.1 46.1,5.1 32,39.7 32,60.2"/></clipPath></defs>
+  <rect width="64" height="64" rx="13" fill="#ffffff"/>
+  <polygon fill="#14245C" points="6.4,5.1 17.9,5.1 32,39.7 32,60.2"/>
+  <polygon fill="#B22234" points="57.6,5.1 46.1,5.1 32,39.7 32,60.2"/>
+  <g clip-path="url(#r)" fill="#ffffff">
+    <rect x="30" y="11.6" width="30" height="2.6"/>
+    <rect x="30" y="17.6" width="30" height="2.6"/>
+    <rect x="30" y="23.6" width="30" height="2.6"/>
+  </g>
+  <polygon fill="#ffffff" points="16.10,9.60 17.28,12.78 20.67,12.92 18.00,15.02 18.92,18.28 16.10,16.40 13.28,18.28 14.20,15.02 11.53,12.92 14.92,12.78"/>
+</svg>
