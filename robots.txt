@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shaq-taj.github.io/innovet-website/sitemap.xml

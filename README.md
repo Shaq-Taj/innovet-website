@@ -44,6 +44,14 @@ Use a server rather than double-clicking the files, so links, fonts and the 3D c
 - **Job openings:** to list a real opening, replace the "There are no current openings" panel in `jobs.html` with job cards, and update the `0` counts.
 - **Forms:** this version has no server, so "Request a Demo" and "Apply here" use email links to dmap@innovetusa.com, plus copy-to-clipboard buttons.
 
+## SEO
+
+Every page has a unique title and description, a canonical link, Open Graph and Twitter share tags (share image: `assets/og-image.png`), and schema.org JSON-LD: Organization on every page, plus SoftwareApplication and WebSite on the homepage, FAQPage on `faqs.html`, and breadcrumbs on the inner pages. `sitemap.xml` and `robots.txt` list the pages for search engines.
+
+- **Site address:** canonical links, share tags, JSON-LD and `sitemap.xml` all use `https://shaq-taj.github.io/innovet-website/`. If the site moves to a custom domain, search and replace that address in every `.html` file, `sitemap.xml` and `robots.txt`.
+- **Homepage content is pre-rendered:** the text inside `<div id="root">` in `index.html` is a saved copy of what the homepage script renders. Crawlers that don't run JavaScript can still read the headings and copy, and the script replaces it with the live version on load. If you change homepage text in the script, update the copy too. The quickest way is to open the page in a browser, then copy the `#root` element's inner HTML from the developer tools into the file.
+- **After launch:** add the site to Google Search Console and Bing Webmaster Tools, and submit `sitemap.xml`.
+
 ## Brand rules
 
 - Light pages in red, white and blue: navy `#14245C`, blue `#2E4E8C`, red `#B22234`, with pale tints `#F4F7FC`, `#EAF0FA` and `#FBEDEF`. No dark backgrounds.
